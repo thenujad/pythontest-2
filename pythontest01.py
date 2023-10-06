@@ -1,35 +1,37 @@
 
 # What will be the output of the following Python code, if the input is 101?
-# x = int(input('Enter x: '))
-# if x > 100:
-#     k = x * 2
-#     if x >= 200:
-#         k = k * 3
-#     elif k < 300:
-#         k = k * 4
-#     else:
-#         k = k * 5
-# else:
-#     k = x * 3
-# print (k)
+ x = int(input('Enter x: '))
+if x > 100:
+     k = x * 2
+     if x >= 200:
+         k = k * 3
+     elif k < 300:
+
+       k = k * 4
+     else:
+         k = k * 5
+ else:
+
+     k = x * 3
+ print (k)
 
 
 
 
 #What will be the output of the following Python code, if the input is ‘111’ ?
 
-# x = int(input('Enter x: '))
-# if (x > 100):
-#        k = x * 2
-#        if (x >= 200):
-#               k = k * 3
-#        elif (k < 300):
-#               k = k * 4
-#        else:
-#               k = k * 5
-# else:
-#        k = x * 3
-# print(k)
+ x = int(input('Enter x: '))
+ if (x > 100):
+       k = x * 2
+        if (x >= 200):
+               k = k * 3
+        elif (k < 300):
+              k = k * 4
+       else:
+              k = k * 5
+        else:
+        k = x * 3
+print(k)
 
 
 
