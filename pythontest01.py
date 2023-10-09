@@ -44,13 +44,22 @@
 #     p = 2000 / m
 # else:
 #     p = m/1000
-    
+
+
 #What will be the output of the following Python code segment?  
 
 
-mark = 55
-if mark <= 39: grade = 'D'
-elif mark < 55 : grade = 'C'
-elif mark < 70 : grade = 'B'
-else: grade = 'A'
-print (grade)
+# mark = 55
+# if mark <= 39: grade = 'D'
+# elif mark < 55 : grade = 'C'
+# elif mark < 70 : grade = 'B'
+# else: grade = 'A'
+# print (grade)
+
+numList = [2,4,6,8,3,4,2,1]
+evenList=[]
+for x in numList:
+    if(x%2==0) and (x not in evenList):
+        evenList.append(x)
+        
+print(evenList)
